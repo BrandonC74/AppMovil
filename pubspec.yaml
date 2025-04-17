@@ -1,0 +1,61 @@
+name: The_Best_Burger
+description: "Aplicación de menú de hamburguesas"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.1.11
+  provider: ^6.1.4
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.3.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icono/icono.png"
+  adaptive_icon_background: "assets/icono/icono.png"
+
+flutter_native_splash:
+  image: assets/icono/icono.png
+  color: "#ffffff"
+  android: true
+  ios: true
+
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/300.png
+    - assets/images/500.png
+    - assets/images/bbq.png
+    - assets/images/cerveza.png
+    - assets/images/clasica.png
+    - assets/images/dobleQueso.png
+    - assets/images/jugo.png
+    - assets/images/limonada.png
+    - assets/images/mexicana.png
+    - assets/images/picantenuggets.png
+    - assets/images/pollo.png
+    - assets/images/pollo10.png
+    - assets/images/polloCrispy.png
+    - assets/images/stickQueso.png
+    - assets/images/tehelado.png
+    - assets/images/vegetariana.png
+    - assets/images/vegetariana2.png
+    - assets/images/tehelado.png
+    - assets/icono/icono.png
+    - assets/images/refresco355.png
+
+
